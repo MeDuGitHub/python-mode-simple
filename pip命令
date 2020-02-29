@@ -1,0 +1,26 @@
+获取已安装第三方包列表
+pip list
+
+检查是否有需要更新的第三方库
+pip list -o
+
+更新第三方库 pip install --upgrade <库名>
+pip install --upgrade colorama
+
+查询库信息 pip show pip install --upgrade
+pip show panda
+
+卸载第三方库 pip uninstall <卸载库名>
+pip uninstall panda
+
+搜索 pip search <库名>
+pip search panda
+
+下载但不安装pip download <库名>
+pip download pandas
+
+配置国内镜像安装地址
+解决网速过慢问题
+清华大学pypi镜像站
+pip install pip -U
+pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
